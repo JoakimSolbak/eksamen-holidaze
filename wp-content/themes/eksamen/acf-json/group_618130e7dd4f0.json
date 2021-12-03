@@ -1,0 +1,200 @@
+{
+    "key": "group_618130e7dd4f0",
+    "title": "Hotel information",
+    "fields": [
+        {
+            "key": "field_61a9da3385f39",
+            "label": "Hotel image",
+            "name": "hotel_image",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_6183cf879102d",
+            "label": "Accomodations",
+            "name": "accomodations_list",
+            "type": "select",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Hotel": "Hotel",
+                "B&b": "B&b",
+                "Guesthouse": "Guesthouse"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_61813cfd0f34b",
+            "label": "Features",
+            "name": "features",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Wi-fi": "Wi-fi",
+                "Air conditioning": "Air conditioning",
+                "Svimming pool": "Svimming pool",
+                "Free breakfast": "Free breakfast"
+            },
+            "allow_custom": 0,
+            "default_value": [],
+            "layout": "vertical",
+            "toggle": 0,
+            "return_format": "value",
+            "save_custom": 0
+        },
+        {
+            "key": "field_618138a37ab0e",
+            "label": "Price",
+            "name": "price",
+            "type": "range",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "min": 1000,
+            "max": 9000,
+            "step": 10,
+            "prepend": "",
+            "append": "kr"
+        },
+        {
+            "key": "field_61813921921fe",
+            "label": "Reviews",
+            "name": "reviews",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": 0,
+            "prepend": "",
+            "append": "Reviews",
+            "min": 0,
+            "max": "",
+            "step": 1
+        },
+        {
+            "key": "field_6181365615e66",
+            "label": "Address",
+            "name": "address",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Allehelgens gate 6",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6181378eca555",
+            "label": "Postal code",
+            "name": "postal_code",
+            "type": "number",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": 5016,
+            "prepend": "",
+            "append": "Bergen",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_618b7c3f4dde7",
+            "label": "Map Location",
+            "name": "map_location",
+            "type": "google_map",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "center_lat": "",
+            "center_lng": "",
+            "zoom": "",
+            "height": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "hotel"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1638521483
+}

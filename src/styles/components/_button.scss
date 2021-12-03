@@ -1,0 +1,59 @@
+/* Components */
+.btn-primary{
+	background-color: var(--primary-color);
+	padding: 14px 38px;
+	border-radius: 29px;
+	border: none;
+	color: var(--white);
+	cursor: pointer;
+}
+.btn-primary:hover {
+	background-color: var(--white);
+	color: var(--primary-color);
+	box-shadow: 0px 0px 10px -2.5px var(--black);
+}
+.btn-secondary{
+  background-color: var(--white);
+  padding: 14px 38px;
+  border-radius: 29px;    
+	border: 3px solid var(--primary-color);
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.btn-secondary:hover {
+	box-shadow: 0px 0px 10px -2.5px var(--black);
+}
+.btn-close{
+  cursor: pointer;
+	background: transparent;
+	border: none;
+	font-size: 30px;
+  color: var(--primary-color);
+}
+#mobile-menu-toggle{
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	font-size: 40px;
+	color: var(--primary-color);
+}
+.search-modal-toggle{
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  font-size: 26px;
+  color: var(--primary-color);
+}
+.search-modal-toggle:hover{
+  border-bottom: 2px solid var(--primary-color);
+}
+.contact-modal-toggle{
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  font-size: 26px;
+  color: var(--primary-color);
+}
+.contact-modal-toggle:hover{
+  text-decoration: underline;
+}

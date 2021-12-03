@@ -1,0 +1,41 @@
+/* Custom login form with JWT - styling */
+.login-heading {
+	margin-top: 75px;
+}
+.login-heading h1 {
+	color: var(--primary-color);
+	font-size: 46px;
+	line-height: 56px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+/* Wordpress login form- Tablet responsive */
+@media only screen and (max-width: 769px) {
+	.login-heading h1 {
+		font-size: 36px;
+	}
+}
+
+.login-form-section {
+	max-width: 700px;
+	margin: 0 auto;
+	display: flex;
+	min-height: 880px;
+	align-items: center;
+	font-size: 20px;
+	padding-bottom: 75px;
+}
+
+.login-form-section hr {
+	margin-block-start: 1.5em;
+	margin-block-end: 1.5em;
+}
+
+.lform-below {
+	text-align: center;
+	max-width: 80%;
+	margin: 0 auto;
+}
+.lform-link {
+	color: #004cff;
+}

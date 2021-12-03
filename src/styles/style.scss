@@ -1,0 +1,44 @@
+/*!
+Theme Name: Tada
+Author: Tada
+Author URI: 
+Version: 1.0.0
+*/
+
+// Abstracts
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+// Base
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/helpers';
+@import 'base/layout';
+
+// Components
+@import 'components/button';
+@import 'components/icon';
+@import 'components/modal';
+@import 'components/search-modal';
+@import 'components/contact-modal';
+@import 'components/newsletter';
+@import 'components/google-map';
+
+// Layout
+@import 'layout/header';
+@import 'layout/footer';
+
+// Forms
+@import 'forms/form-style';
+@import 'forms/gform';
+@import 'forms/acf-form';
+@import 'forms/login-form';
+
+// Pages
+@import 'pages/home';
+@import 'pages/hotels';
+@import 'pages/hotels-single';
+@import 'pages/register';
+@import 'pages/dashboard';

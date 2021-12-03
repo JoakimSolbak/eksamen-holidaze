@@ -1,0 +1,24 @@
+/* Google maps styling */
+.acf-map {
+	width: 100%;
+	border: #ccc solid 1px;
+	margin: 0px 0px 64px 0px;
+}
+.hotels-hero__map > .acf-map {
+	height: 100%;
+}
+.hotels-single-right > .acf-map {
+	height: 450px;
+}
+
+// Fixes potential theme css conflict.
+.acf-map img {
+	max-width: inherit !important;
+}
+
+/* Google maps - Laptop responsive */
+@media only screen and (max-width: 1200px) {
+	.acf-map {
+		margin: 0px 0px 32px 0px;
+	}
+}

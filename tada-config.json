@@ -1,0 +1,9 @@
+{
+	"project_name": "wpsite-starter",
+	"theme_name": "eksamen",
+	"site_title": "Tada starter kit",
+	"db_user": "root",
+	"db_password": "root",
+	"db_name": "themedatabase",
+	"dev_url": "eksamen.local"
+}

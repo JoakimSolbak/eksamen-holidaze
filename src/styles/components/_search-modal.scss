@@ -1,0 +1,80 @@
+/* Search modal */
+#search-modal .modal-dialog{
+  max-width: 1520px;
+  margin: 150px auto;
+}
+#search-modal .search-bar{
+  width: 100%;
+  border: none;
+  height: 32px;
+  padding: 35px 0px 35px 90px;
+  font-size: 30px;
+  font-family: "proxima-nova";
+  box-sizing: border-box;
+  border-bottom: 0.5px solid var(--grey);
+}
+#search-modal .search-input-wrapper::before{
+   font-family: "Font Awesome 5 Free"; 
+   font-weight: 900; 
+   content: "\f002";
+   font-size: 30px;
+   padding: 20px 32px;
+   position: absolute;
+}
+.hotel-search-item{
+  padding: 50px 0px;
+  border-bottom: .5px solid var(--grey);
+}
+.hotel-search-item a{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.hotel-search-item p{
+  font-size: 30px;
+}
+.search-results-list .lead{
+  font-weight: 700;
+}
+.search-results-list .no-results-found{
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.hotel-search-item:first-of-type{
+  border-top: .5px solid var(--grey);
+}
+.hotel-search-item:last-of-type{
+  border-bottom: none;
+}
+.hotel-search-item img{
+  width: 280px;
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
+  padding: 7px;
+  border: .5px solid var(--grey);
+}
+/* Search modal - Laptop responsive */
+@media only screen and (max-width: 1025px) {
+  #search-modal .search-bar {
+    font-size: 24px;
+    padding: 35px 0px 35px 77px;
+  }
+  #search-modal .search-input-wrapper::before {
+    padding: 20px 24px;
+  }
+}
+/* Search modal - Tablet responsive */
+@media only screen and (max-width: 769px) {
+  .hotel-search-item a{
+    flex-direction: column;
+    font-size: 24px;
+  }
+  .hotel-search-item img{
+    margin-top: 32px;
+  }
+  .search-results-list .lead {
+    margin: 0px 0px 24px 0px;
+  }
+}

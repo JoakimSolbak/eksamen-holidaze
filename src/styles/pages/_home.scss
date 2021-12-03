@@ -1,0 +1,60 @@
+/* Index styling */
+/* Index - Hero */
+.index-hero{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/front-page/index_hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin-top: -126px;
+  }
+  .index-hero .container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+  }
+  .index-hero__items{
+    width: 42vw;
+  }
+  /* Index - Hero - Laptop responsive */
+  @media only screen and (max-width: 1025px) {
+    .index-hero__items{
+      width: 90vw;
+    }
+  }
+  /* Index - Features */
+  .index-features{
+    text-align: center;
+    margin: 180px 0px;
+  }
+  .index-features .container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .index-features .grid-row{
+    column-gap: 100px;
+  }
+  .index-features h2{
+    margin-bottom: 100px;
+  }
+  .index-features i{
+    color: var(--primary-color);
+    font-size: 60px;
+    margin-bottom: 30px;
+  }
+  /* Index - Features - Laptop responsive */
+  @media only screen and (max-width: 1025px) {
+    .index-features {
+      margin: 100px 0px;
+    }
+    .col{
+      margin-bottom: 100px;
+    }
+  }
+  

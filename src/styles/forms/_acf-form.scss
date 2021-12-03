@@ -1,0 +1,28 @@
+/* advanced custom fields form styling */
+
+.acf-fields > .acf-field {
+	padding: 32px 0px !important;
+}
+.acf-loading,
+.acf-spinner {
+	height: 100px !important;
+	width: 100px !important;
+	padding: 20px 0px;
+}
+
+.acf-loading::after,
+.acf-spinner::after {
+	white-space: pre;
+}
+
+.acf-button {
+	@extend .btn-primary;
+	@extend button;
+}
+@media only screen and (max-width: 1025px) {
+	.acf-button {
+		display: block;
+		margin-top: 20px;
+		text-align: center;
+	}
+}

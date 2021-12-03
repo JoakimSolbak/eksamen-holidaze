@@ -1,0 +1,123 @@
+/* Forms styling */
+.field {
+	padding-bottom: 20px;
+}
+.field label,
+.field legend {
+	font-weight: 700;
+}
+.field legend {
+	margin-bottom: 12px;
+}
+.input_container {
+	padding-top: 12px;
+}
+.input_container input {
+	width: 100%;
+	padding: 10px 21px;
+	font-size: 20px;
+	box-sizing: border-box;
+	margin-bottom: 18px;
+	border: none;
+	box-shadow: 0px 0px 10px #00000029;
+	border-radius: 8px;
+}
+.input_complex {
+	display: grid;
+}
+.input_complex label {
+	display: block;
+	margin-bottom: 12px;
+}
+.btn-primary.form_button {
+	background-color: var(--primary-color);
+	padding: 14px 38px;
+	border-radius: 29px;
+	border: none;
+	color: var(--white);
+	cursor: pointer;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 31px;
+	transition: all 0.2s ease-in-out;
+	width: 100%;
+}
+.form_button:hover {
+	background-color: var(--white);
+	color: var(--primary-color);
+	box-shadow: 0px 0px 10px -2.5px var(--black);
+}
+
+.form_submission_errors h2 {
+	font-size: 20px;
+	line-height: 24px;
+	color: rgb(201, 0, 0);
+}
+.validation_message {
+	color: rgb(201, 0, 0);
+}
+
+/* Comments styling */
+.form-submit input {
+	@extend .btn-secondary;
+	@extend button;
+	font-size: 16px;
+	padding: 8px 28px;
+}
+
+.comment-respond {
+	h3 {
+		font-size: 20px;
+		margin-bottom: 0px;
+	}
+	.comment-form-comment {
+		display: flex;
+		flex-direction: column;
+		width: 40%;
+		margin-bottom: 20px;
+	}
+	.logged-in-as {
+		display: none;
+	}
+	.form-submit {
+		margin-bottom: 32px;
+	}
+}
+
+/* Comments - Laptop responsive */
+@media only screen and (max-width: 1025px) {
+	.comment-respond .comment-form-comment {
+		width: 100%;
+	}
+}
+
+/* Enquiry comments */
+.enquiry-author,
+.comment-author {
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 8px;
+}
+.enquiry-comment {
+	padding: 32px;
+	margin: 24px 0;
+	width: 50%;
+	box-sizing: border-box;
+	overflow-wrap: break-word;
+}
+.enquiry-comment-content {
+	margin-bottom: 0px;
+}
+.comment-form-comment textarea {
+	padding: 14px;
+	font-size: 20px;
+	font-family: proxima-nova, sans-serif;
+}
+
+/* Enquiry comments - Laptop responsive */
+@media only screen and (max-width: 1025px) {
+	.enquiry-comment {
+		width: 100%;
+		padding: 20px;
+	}
+}

@@ -1,0 +1,38 @@
+html.has-smooth-scroll #main-wrapper {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+[data-parallax-image] {
+  position: relative;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+[data-parallax-image] img {
+  position: absolute;
+  left: 0;
+  top: -30%;
+  height: 130%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+[data-text-reveal] {
+  position: relative;
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+}
+[data-text-reveal] > div {
+  position: relative;
+}
+[data-text-reveal] .text-reveal-parent {
+  overflow: hidden;
+}
+[data-text-reveal] .text-reveal-child {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=critical.css.map*/

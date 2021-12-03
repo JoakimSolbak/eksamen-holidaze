@@ -1,0 +1,21 @@
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+.hidden {
+	display: none !important;
+	opacity: 0 !important;
+	visibility: hidden !important;
+}
+
+.visible {
+	display: block !important;
+	opacity: 1 !important;
+	visibility: visible !important;
+}

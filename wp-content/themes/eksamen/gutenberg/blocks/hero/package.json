@@ -1,0 +1,15 @@
+{
+	"name": "gutenberg-block",
+	"version": "1.0.0",
+	"dependencies": {},
+	"devDependencies": {
+		"@wordpress/scripts": "^12.2.1"
+	},
+	"scripts": {
+		"dev": "wp-scripts start",
+		"build": "wp-scripts build"
+	},
+	"repository": {},
+	"author": "",
+	"license": "ISC"
+}
