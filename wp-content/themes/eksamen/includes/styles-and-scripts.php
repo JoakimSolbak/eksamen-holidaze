@@ -18,6 +18,7 @@ add_action('wp_enqueue_scripts', function () {
 	wp_localize_script( 'scripts-js', 'MAIN', [
     'nonce' => wp_create_nonce('wp_rest'),
     'themedir' => get_template_directory_uri(),
+	'home_url' => home_url(),
     ] );
 });
 

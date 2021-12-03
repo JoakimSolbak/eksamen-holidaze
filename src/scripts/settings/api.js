@@ -1,1 +1,1 @@
-export const baseUrl = 'http://eksamen.local';
+export const baseUrl = MAIN.home_url;

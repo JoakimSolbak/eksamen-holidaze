@@ -114,7 +114,7 @@ function my_registration_page_redirect()
     }
 }
  
-//add_filter( 'init', 'my_registration_page_redirect' );
+add_filter( 'init', 'my_registration_page_redirect' );
 
 // https://stackoverflow.com/questions/4534713/in-wordpress-how-to-redirect-after-a-comment-back-to-the-referring-page
 add_filter('comment_post_redirect', 'redirect_after_comment');
